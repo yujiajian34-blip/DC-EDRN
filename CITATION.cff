@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+type: software
+title: "DC-EDRN: Benign-Aware Prompt-Injection Screening for LLM Services"
+authors:
+  - family-names: Yu
+    given-names: Jiajian
+  - family-names: Xie
+    given-names: Bailin
+repository-code: "https://github.com/yujiajian34-blip/DC-EDRN"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-16"
+abstract: "Code, data-construction and evaluation scripts, splits, and checkpoints for benign-aware prompt-injection screening. Third-party prompt text is not included."
+preferred-citation:
+  type: conference-paper
+  title: "DC-EDRN: Benign-Aware Prompt-Injection Screening for LLM Services"
+  authors:
+    - family-names: Yu
+      given-names: Jiajian
+    - family-names: Xie
+      given-names: Bailin
+  year: 2026
+  conference:
+    name: "IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)"
+  notes: "To appear."

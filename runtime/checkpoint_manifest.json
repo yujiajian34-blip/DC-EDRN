@@ -1,0 +1,454 @@
+{
+  "scope": "Six primary models, three original seeds each; unchanged checkpoint bytes and saved thresholds.",
+  "threshold_policy": "Use checkpoint threshold directly with score >= threshold; no threshold fitting, domain calibration, or new selection.",
+  "max_words_provenance": "128 from the historical evaluator and encoder defaults; not stored in these checkpoints.",
+  "checkpoints": [
+    {
+      "selector": "BiGRU:42",
+      "model": "BiGRU",
+      "filename": "Fair_BiGRU_lr2e-3_do0p20_seed42.pth",
+      "original_config_name": "Fair_BiGRU_lr2e-3_do0p20",
+      "seed": 42,
+      "threshold": 0.9999538660049438,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 356546,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "864f9080e94ed6e5464d7d320fb0795cb9c29a343adc14fe911cee1dd4208803",
+      "size_bytes": 1442617,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiGRU_lr2e-3_do0p20_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiGRU",
+          "checkpoint_config": "Fair_BiGRU_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "BiGRU:52",
+      "model": "BiGRU",
+      "filename": "Fair_BiGRU_lr2e-3_do0p20_seed52.pth",
+      "original_config_name": "Fair_BiGRU_lr2e-3_do0p20",
+      "seed": 52,
+      "threshold": 0.9995813965797424,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 356546,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "c77d13d993f488f4903eb656d6c1b811cd419c32bec5c489042cd7a1ec3a9e4b",
+      "size_bytes": 1442617,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiGRU_lr2e-3_do0p20_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiGRU",
+          "checkpoint_config": "Fair_BiGRU_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "BiGRU:62",
+      "model": "BiGRU",
+      "filename": "Fair_BiGRU_lr2e-3_do0p20_seed62.pth",
+      "original_config_name": "Fair_BiGRU_lr2e-3_do0p20",
+      "seed": 62,
+      "threshold": 0.9999980926513672,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 356546,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "efcde7cd52913089ecd46d8c9e5c4fc4740131efbc63ed513a36f0cd5a702adf",
+      "size_bytes": 1442617,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiGRU_lr2e-3_do0p20_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiGRU",
+          "checkpoint_config": "Fair_BiGRU_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "BiLSTM:42",
+      "model": "BiLSTM",
+      "filename": "Fair_BiLSTM_lr2e-3_do0p20_seed42.pth",
+      "original_config_name": "Fair_BiLSTM_lr2e-3_do0p20",
+      "seed": 42,
+      "threshold": 0.9999957084655762,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 355074,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+      "size_bytes": 1436781,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiLSTM_lr2e-3_do0p20_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiLSTM",
+          "checkpoint_config": "Fair_BiLSTM_lr2e-3_do0p20"
+        }
+      },
+      "reference_checkpoint": {
+        "source_reference": "ISPA2026_Experiments_20260917/reference_checkpoints/BiLSTM_seed42.pth",
+        "sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+        "byte_identical": true
+      }
+    },
+    {
+      "selector": "BiLSTM:52",
+      "model": "BiLSTM",
+      "filename": "Fair_BiLSTM_lr2e-3_do0p20_seed52.pth",
+      "original_config_name": "Fair_BiLSTM_lr2e-3_do0p20",
+      "seed": 52,
+      "threshold": 0.9999386072158813,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 355074,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "64a1fd5377b073ba3053337b94aa105440651a59c3aeca216d40f37cf6340700",
+      "size_bytes": 1436781,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiLSTM_lr2e-3_do0p20_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiLSTM",
+          "checkpoint_config": "Fair_BiLSTM_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "BiLSTM:62",
+      "model": "BiLSTM",
+      "filename": "Fair_BiLSTM_lr2e-3_do0p20_seed62.pth",
+      "original_config_name": "Fair_BiLSTM_lr2e-3_do0p20",
+      "seed": 62,
+      "threshold": 0.9999885559082031,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 355074,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "2f292759d8684223d3459acd173ec279ca1237b64651ac544e6df1a3bc6c36a9",
+      "size_bytes": 1436781,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_BiLSTM_lr2e-3_do0p20_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "BiLSTM",
+          "checkpoint_config": "Fair_BiLSTM_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "ByteCNN:42",
+      "model": "ByteCNN",
+      "filename": "Fair_ByteCNN_lr2e-3_do0p20_seed42.pth",
+      "original_config_name": "Fair_ByteCNN_lr2e-3_do0p20",
+      "seed": 42,
+      "threshold": 0.999906063079834,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 386274,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+      "size_bytes": 1565685,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_ByteCNN_lr2e-3_do0p20_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "ByteCNN",
+          "checkpoint_config": "Fair_ByteCNN_lr2e-3_do0p20"
+        }
+      },
+      "reference_checkpoint": {
+        "source_reference": "ISPA2026_Experiments_20260917/reference_checkpoints/ByteCNN_seed42.pth",
+        "sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+        "byte_identical": true
+      }
+    },
+    {
+      "selector": "ByteCNN:52",
+      "model": "ByteCNN",
+      "filename": "Fair_ByteCNN_lr2e-3_do0p20_seed52.pth",
+      "original_config_name": "Fair_ByteCNN_lr2e-3_do0p20",
+      "seed": 52,
+      "threshold": 0.9999823570251465,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 386274,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "34ef629cd1dfbecfefb9c387da6a8cf433ae1a63574e6122aac0aafcbf00dbc6",
+      "size_bytes": 1565685,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_ByteCNN_lr2e-3_do0p20_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "ByteCNN",
+          "checkpoint_config": "Fair_ByteCNN_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "ByteCNN:62",
+      "model": "ByteCNN",
+      "filename": "Fair_ByteCNN_lr2e-3_do0p20_seed62.pth",
+      "original_config_name": "Fair_ByteCNN_lr2e-3_do0p20",
+      "seed": 62,
+      "threshold": 0.9999948740005493,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 386274,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "be21ce3c901d1b971a4bcccdcfd61c04394d86e97f9429e39c241c400bfbf88d",
+      "size_bytes": 1565685,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_ByteCNN_lr2e-3_do0p20_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "ByteCNN",
+          "checkpoint_config": "Fair_ByteCNN_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "TinyTransformer:42",
+      "model": "TinyTransformer",
+      "filename": "Fair_TinyTransformer_lr2e-3_do0p20_seed42.pth",
+      "original_config_name": "Fair_TinyTransformer_lr2e-3_do0p20",
+      "seed": 42,
+      "threshold": 0.9999903440475464,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 347938,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "692da0b850d770dca943350d8cd2b89c51e87357050dba4f98b275f3a74e8071",
+      "size_bytes": 1410237,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_TinyTransformer_lr2e-3_do0p20_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "TinyTransformer",
+          "checkpoint_config": "Fair_TinyTransformer_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "TinyTransformer:52",
+      "model": "TinyTransformer",
+      "filename": "Fair_TinyTransformer_lr2e-3_do0p20_seed52.pth",
+      "original_config_name": "Fair_TinyTransformer_lr2e-3_do0p20",
+      "seed": 52,
+      "threshold": 0.9999957084655762,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 347938,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "48b8dc5bc562538aa74af1c1337ba2f30c7cb7c173c2faf0b452e496ca5e8f1b",
+      "size_bytes": 1410237,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_TinyTransformer_lr2e-3_do0p20_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "TinyTransformer",
+          "checkpoint_config": "Fair_TinyTransformer_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "TinyTransformer:62",
+      "model": "TinyTransformer",
+      "filename": "Fair_TinyTransformer_lr2e-3_do0p20_seed62.pth",
+      "original_config_name": "Fair_TinyTransformer_lr2e-3_do0p20",
+      "seed": 62,
+      "threshold": 0.9999964237213135,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 347938,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "406f74aeaa31ead04756e595d4411f353102137ecbe872c236a52352565059cb",
+      "size_bytes": 1410237,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Fair_TinyTransformer_lr2e-3_do0p20_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "TinyTransformer",
+          "checkpoint_config": "Fair_TinyTransformer_lr2e-3_do0p20"
+        }
+      }
+    },
+    {
+      "selector": "Full_EDRN:42",
+      "model": "Full_EDRN",
+      "filename": "Paper_Full_EDRN_seed42.pth",
+      "original_config_name": "Paper_Full_EDRN",
+      "seed": 42,
+      "threshold": 0.9997767806053162,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 327258,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "f33a93213d8c6f58a337735b351692eb07efdebdc0ad61d9fb24c450cfb4c860",
+      "size_bytes": 1326421,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_Full_EDRN_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "Full_EDRN",
+          "checkpoint_config": "Paper_Full_EDRN"
+        }
+      }
+    },
+    {
+      "selector": "Full_EDRN:52",
+      "model": "Full_EDRN",
+      "filename": "Paper_Full_EDRN_seed52.pth",
+      "original_config_name": "Paper_Full_EDRN",
+      "seed": 52,
+      "threshold": 0.9997028708457947,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 327258,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "80428521b06dc2d602a296f907d77ce239c021929b0ef0316f1293fcaba29a66",
+      "size_bytes": 1326421,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_Full_EDRN_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "Full_EDRN",
+          "checkpoint_config": "Paper_Full_EDRN"
+        }
+      }
+    },
+    {
+      "selector": "Full_EDRN:62",
+      "model": "Full_EDRN",
+      "filename": "Paper_Full_EDRN_seed62.pth",
+      "original_config_name": "Paper_Full_EDRN",
+      "seed": 62,
+      "threshold": 0.9990000128746033,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 327258,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "7cec98ce42691b9d9d7d9a8d008d9dac8f958addcd3d41825dc13b87a4f83d9c",
+      "size_bytes": 1326421,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_Full_EDRN_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "Full_EDRN",
+          "checkpoint_config": "Paper_Full_EDRN"
+        }
+      }
+    },
+    {
+      "selector": "DC_EDRN:42",
+      "model": "DC_EDRN",
+      "filename": "Paper_NoExplicitDuration_seed42.pth",
+      "original_config_name": "Paper_NoExplicitDuration",
+      "seed": 42,
+      "threshold": 0.9975558519363403,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 323754,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+      "size_bytes": 1311609,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_NoExplicitDuration_seed42.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "DC_EDRN",
+          "checkpoint_config": "Paper_NoExplicitDuration"
+        }
+      },
+      "reference_checkpoint": {
+        "source_reference": "ISPA2026_Experiments_20260917/reference_checkpoints/DC_EDRN_seed42.pth",
+        "sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+        "byte_identical": true
+      }
+    },
+    {
+      "selector": "DC_EDRN:52",
+      "model": "DC_EDRN",
+      "filename": "Paper_NoExplicitDuration_seed52.pth",
+      "original_config_name": "Paper_NoExplicitDuration",
+      "seed": 52,
+      "threshold": 0.998302698135376,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 323754,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "e7e0e0550e428f50bb25de63c66b4d61b8d0c4e22183b0016ae10374207be547",
+      "size_bytes": 1311609,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_NoExplicitDuration_seed52.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "DC_EDRN",
+          "checkpoint_config": "Paper_NoExplicitDuration"
+        }
+      }
+    },
+    {
+      "selector": "DC_EDRN:62",
+      "model": "DC_EDRN",
+      "filename": "Paper_NoExplicitDuration_seed62.pth",
+      "original_config_name": "Paper_NoExplicitDuration",
+      "seed": 62,
+      "threshold": 0.9997158646583557,
+      "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+      "parameter_count": 323754,
+      "max_bytes": 512,
+      "max_words": 128,
+      "word_vocab": 8192,
+      "downsample": 4,
+      "sha256": "4f77e656f31a9d6272db7c112fdf66f7965c13b91062522c1618d9b9e76ae057",
+      "size_bytes": 1311609,
+      "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_NoExplicitDuration_seed62.pth",
+      "byte_identical_to_source": true,
+      "config_differences_from_copied_configs_json": {
+        "name": {
+          "copied_configs_json": "DC_EDRN",
+          "checkpoint_config": "Paper_NoExplicitDuration"
+        }
+      }
+    }
+  ]
+}

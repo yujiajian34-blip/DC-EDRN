@@ -1,0 +1,95 @@
+{
+  "completed_runs": [
+    {
+      "mode": "existing_checkpoint_posthoc",
+      "model": "DC_EDRN",
+      "seed": 42,
+      "training_performed": false,
+      "source_checkpoint_sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+      "data_sha256": "e983ecd730fbf5ea5b4493e6d74e489214475b492207b2aab330dabbaf9cfbd1",
+      "scope": "Post-hoc sensitivity analysis of existing seed42 weights. Original checkpoint selection is retained and may have used flagged validation examples. Filtered reevaluation does not undo historical checkpoint selection. Not clean-validation retraining; not three-seed evidence."
+    },
+    {
+      "mode": "existing_checkpoint_posthoc",
+      "model": "BiLSTM",
+      "seed": 42,
+      "training_performed": false,
+      "source_checkpoint_sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+      "data_sha256": "e983ecd730fbf5ea5b4493e6d74e489214475b492207b2aab330dabbaf9cfbd1",
+      "scope": "Post-hoc sensitivity analysis of existing seed42 weights. Original checkpoint selection is retained and may have used flagged validation examples. Filtered reevaluation does not undo historical checkpoint selection. Not clean-validation retraining; not three-seed evidence."
+    },
+    {
+      "mode": "existing_checkpoint_posthoc",
+      "model": "ByteCNN",
+      "seed": 42,
+      "training_performed": false,
+      "source_checkpoint_sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+      "data_sha256": "e983ecd730fbf5ea5b4493e6d74e489214475b492207b2aab330dabbaf9cfbd1",
+      "scope": "Post-hoc sensitivity analysis of existing seed42 weights. Original checkpoint selection is retained and may have used flagged validation examples. Filtered reevaluation does not undo historical checkpoint selection. Not clean-validation retraining; not three-seed evidence."
+    }
+  ],
+  "completion": {
+    "mode": "existing_checkpoint_posthoc",
+    "completed_runs": 3,
+    "budget_sweep": "Validation-only threshold changes on each fixed selected checkpoint; no checkpoint reselection for each budget. Budgets constrain validation, not guaranteed test FPR.",
+    "standard_deviation": "sample SD across seeds; undefined for one seed",
+    "expected_existing_checkpoints": 3,
+    "training_required": false,
+    "scope": "Post-hoc sensitivity analysis of existing seed42 weights. Original checkpoint selection is retained and may have used flagged validation examples. Filtered reevaluation does not undo historical checkpoint selection. Not clean-validation retraining; not three-seed evidence."
+  },
+  "benchmark": {
+    "environment": {
+      "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "torch": "2.9.1+cu126",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "cuda_runtime": "12.6",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "cpu_threads": 4
+    },
+    "checkpoints": [
+      {
+        "model": "DC_EDRN",
+        "checkpoint_sha256": "615e9aa2ab1b8e12707d4820c86dfa9c627281607ebdbb5a8178b6660a8da07a",
+        "mode": "existing_checkpoint_posthoc",
+        "seed": 42
+      },
+      {
+        "model": "BiLSTM",
+        "checkpoint_sha256": "a1aeeeb7006aaac00d9dfd76716db254d2c4bf0f989c49ac468a652534537e87",
+        "mode": "existing_checkpoint_posthoc",
+        "seed": 42
+      },
+      {
+        "model": "ByteCNN",
+        "checkpoint_sha256": "c08d7f364519ef5b6b119756c2f51172d53df73cb2b4317b4e28b30bf2cea1d1",
+        "mode": "existing_checkpoint_posthoc",
+        "seed": 42
+      }
+    ],
+    "warmup": 20,
+    "inputs": [
+      512,
+      128
+    ],
+    "scope": "Local component replay only. End-to-end column includes tokenization, transfer, forward and scores copied to CPU. No network, queue, concurrent service, or downstream LLM. GPU memory is process peak allocated, including resident input buffers.",
+    "data_sha256": "e983ecd730fbf5ea5b4493e6d74e489214475b492207b2aab330dabbaf9cfbd1"
+  },
+  "data": {
+    "source_sha256": "2c412a16ae445df31b4e162860d1b3980f58b53ae12b62b9995860690bb950e7",
+    "audit_sha256": "dbd19fdcc72e517c0d99bdb6f3014d3abf1a7f0d6f64d4dc61d37f7574c7c2aa",
+    "prepared_sha256": "e983ecd730fbf5ea5b4493e6d74e489214475b492207b2aab330dabbaf9cfbd1",
+    "exclusions": {
+      "diagnostic_obfuscation": 5,
+      "diagnostic_test": 57,
+      "val": 61
+    },
+    "remaining_rows": 33993,
+    "training_unchanged": true,
+    "fresh_normalized_exact_train_eval_overlaps": 0
+  },
+  "protocol_note": "Fixed existing seed42 checkpoints; filtered-validation threshold selection only, no retraining or checkpoint reselection. The archived data_protocol.json new_model_selection field is obsolete plan text and is not used as evidence. Training and original checkpoint selection are unchanged."
+}

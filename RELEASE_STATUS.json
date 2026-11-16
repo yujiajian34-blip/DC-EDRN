@@ -1,0 +1,10 @@
+{
+  "status": "PRIVATE_CANDIDATE",
+  "public_release": false,
+  "acceptance_status": "not_verified; no acceptance recorded",
+  "code_license": "pending_author_decision",
+  "model_license": "pending_author_decision",
+  "raw_datasets_included": false,
+  "training_performed": false,
+  "gpu_rerun_performed": false
+}

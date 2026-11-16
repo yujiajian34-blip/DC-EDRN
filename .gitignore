@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.parquet
+*.zip
+local_runs/
+systems/verification/
+systems/results/

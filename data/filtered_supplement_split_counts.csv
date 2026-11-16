@@ -1,0 +1,11 @@
+split,N,Attack,Benign
+diagnostic_long_context,500,500,0
+diagnostic_notinject,83,0,83
+diagnostic_obfuscation,489,489,0
+diagnostic_overdefense,500,0,500
+diagnostic_test,885,496,389
+train,30000,15000,15000
+train_context,166,0,166
+val,880,473,407
+val_notinject,90,0,90
+val_overdefense,400,0,400

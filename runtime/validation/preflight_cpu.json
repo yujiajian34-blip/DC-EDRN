@@ -1,0 +1,203 @@
+{
+  "status": "passed",
+  "scope": "CPU strict load plus one synthetic-text forward pass for each of 18 original checkpoints",
+  "training_performed": false,
+  "threshold_selection_performed": false,
+  "benchmark_evaluation_performed": false,
+  "generated_utc": "2026-09-18T08:04:31.203767+00:00",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "packages": {
+    "torch": "2.9.1",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "tqdm": "4.66.5"
+  },
+  "synthetic_text": "Please summarize this public example text.",
+  "checkpoint_count": 18,
+  "checks": [
+    {
+      "selector": "BiGRU:42",
+      "checkpoint": "Fair_BiGRU_lr2e-3_do0p20_seed42.pth",
+      "sha256": "864f9080e94ed6e5464d7d320fb0795cb9c29a343adc14fe911cee1dd4208803",
+      "strict_state_dict_load": true,
+      "parameter_count": 356546,
+      "threshold": 0.9999538660049438,
+      "dummy_score": 0.005902011413127184,
+      "finite_score": true
+    },
+    {
+      "selector": "BiGRU:52",
+      "checkpoint": "Fair_BiGRU_lr2e-3_do0p20_seed52.pth",
+      "sha256": "c77d13d993f488f4903eb656d6c1b811cd419c32bec5c489042cd7a1ec3a9e4b",
+      "strict_state_dict_load": true,
+      "parameter_count": 356546,
+      "threshold": 0.9995813965797424,
+      "dummy_score": 0.043235454708337784,
+      "finite_score": true
+    },
+    {
+      "selector": "BiGRU:62",
+      "checkpoint": "Fair_BiGRU_lr2e-3_do0p20_seed62.pth",
+      "sha256": "efcde7cd52913089ecd46d8c9e5c4fc4740131efbc63ed513a36f0cd5a702adf",
+      "strict_state_dict_load": true,
+      "parameter_count": 356546,
+      "threshold": 0.9999980926513672,
+      "dummy_score": 0.0003278980148024857,
+      "finite_score": true
+    },
+    {
+      "selector": "BiLSTM:42",
+      "checkpoint": "Fair_BiLSTM_lr2e-3_do0p20_seed42.pth",
+      "sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+      "strict_state_dict_load": true,
+      "parameter_count": 355074,
+      "threshold": 0.9999957084655762,
+      "dummy_score": 7.419596386171179e-06,
+      "finite_score": true
+    },
+    {
+      "selector": "BiLSTM:52",
+      "checkpoint": "Fair_BiLSTM_lr2e-3_do0p20_seed52.pth",
+      "sha256": "64a1fd5377b073ba3053337b94aa105440651a59c3aeca216d40f37cf6340700",
+      "strict_state_dict_load": true,
+      "parameter_count": 355074,
+      "threshold": 0.9999386072158813,
+      "dummy_score": 0.01357626635581255,
+      "finite_score": true
+    },
+    {
+      "selector": "BiLSTM:62",
+      "checkpoint": "Fair_BiLSTM_lr2e-3_do0p20_seed62.pth",
+      "sha256": "2f292759d8684223d3459acd173ec279ca1237b64651ac544e6df1a3bc6c36a9",
+      "strict_state_dict_load": true,
+      "parameter_count": 355074,
+      "threshold": 0.9999885559082031,
+      "dummy_score": 1.1741619232452649e-08,
+      "finite_score": true
+    },
+    {
+      "selector": "ByteCNN:42",
+      "checkpoint": "Fair_ByteCNN_lr2e-3_do0p20_seed42.pth",
+      "sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+      "strict_state_dict_load": true,
+      "parameter_count": 386274,
+      "threshold": 0.999906063079834,
+      "dummy_score": 0.0017288406379520893,
+      "finite_score": true
+    },
+    {
+      "selector": "ByteCNN:52",
+      "checkpoint": "Fair_ByteCNN_lr2e-3_do0p20_seed52.pth",
+      "sha256": "34ef629cd1dfbecfefb9c387da6a8cf433ae1a63574e6122aac0aafcbf00dbc6",
+      "strict_state_dict_load": true,
+      "parameter_count": 386274,
+      "threshold": 0.9999823570251465,
+      "dummy_score": 0.03983408957719803,
+      "finite_score": true
+    },
+    {
+      "selector": "ByteCNN:62",
+      "checkpoint": "Fair_ByteCNN_lr2e-3_do0p20_seed62.pth",
+      "sha256": "be21ce3c901d1b971a4bcccdcfd61c04394d86e97f9429e39c241c400bfbf88d",
+      "strict_state_dict_load": true,
+      "parameter_count": 386274,
+      "threshold": 0.9999948740005493,
+      "dummy_score": 7.890594861237332e-05,
+      "finite_score": true
+    },
+    {
+      "selector": "TinyTransformer:42",
+      "checkpoint": "Fair_TinyTransformer_lr2e-3_do0p20_seed42.pth",
+      "sha256": "692da0b850d770dca943350d8cd2b89c51e87357050dba4f98b275f3a74e8071",
+      "strict_state_dict_load": true,
+      "parameter_count": 347938,
+      "threshold": 0.9999903440475464,
+      "dummy_score": 0.008010917343199253,
+      "finite_score": true
+    },
+    {
+      "selector": "TinyTransformer:52",
+      "checkpoint": "Fair_TinyTransformer_lr2e-3_do0p20_seed52.pth",
+      "sha256": "48b8dc5bc562538aa74af1c1337ba2f30c7cb7c173c2faf0b452e496ca5e8f1b",
+      "strict_state_dict_load": true,
+      "parameter_count": 347938,
+      "threshold": 0.9999957084655762,
+      "dummy_score": 0.9947728514671326,
+      "finite_score": true
+    },
+    {
+      "selector": "TinyTransformer:62",
+      "checkpoint": "Fair_TinyTransformer_lr2e-3_do0p20_seed62.pth",
+      "sha256": "406f74aeaa31ead04756e595d4411f353102137ecbe872c236a52352565059cb",
+      "strict_state_dict_load": true,
+      "parameter_count": 347938,
+      "threshold": 0.9999964237213135,
+      "dummy_score": 6.977881275815889e-05,
+      "finite_score": true
+    },
+    {
+      "selector": "Full_EDRN:42",
+      "checkpoint": "Paper_Full_EDRN_seed42.pth",
+      "sha256": "f33a93213d8c6f58a337735b351692eb07efdebdc0ad61d9fb24c450cfb4c860",
+      "strict_state_dict_load": true,
+      "parameter_count": 327258,
+      "threshold": 0.9997767806053162,
+      "dummy_score": 0.05744284763932228,
+      "finite_score": true
+    },
+    {
+      "selector": "Full_EDRN:52",
+      "checkpoint": "Paper_Full_EDRN_seed52.pth",
+      "sha256": "80428521b06dc2d602a296f907d77ce239c021929b0ef0316f1293fcaba29a66",
+      "strict_state_dict_load": true,
+      "parameter_count": 327258,
+      "threshold": 0.9997028708457947,
+      "dummy_score": 0.044425155967473984,
+      "finite_score": true
+    },
+    {
+      "selector": "Full_EDRN:62",
+      "checkpoint": "Paper_Full_EDRN_seed62.pth",
+      "sha256": "7cec98ce42691b9d9d7d9a8d008d9dac8f958addcd3d41825dc13b87a4f83d9c",
+      "strict_state_dict_load": true,
+      "parameter_count": 327258,
+      "threshold": 0.9990000128746033,
+      "dummy_score": 0.021232588216662407,
+      "finite_score": true
+    },
+    {
+      "selector": "DC_EDRN:42",
+      "checkpoint": "Paper_NoExplicitDuration_seed42.pth",
+      "sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+      "strict_state_dict_load": true,
+      "parameter_count": 323754,
+      "threshold": 0.9975558519363403,
+      "dummy_score": 0.955367922782898,
+      "finite_score": true
+    },
+    {
+      "selector": "DC_EDRN:52",
+      "checkpoint": "Paper_NoExplicitDuration_seed52.pth",
+      "sha256": "e7e0e0550e428f50bb25de63c66b4d61b8d0c4e22183b0016ae10374207be547",
+      "strict_state_dict_load": true,
+      "parameter_count": 323754,
+      "threshold": 0.998302698135376,
+      "dummy_score": 0.054550282657146454,
+      "finite_score": true
+    },
+    {
+      "selector": "DC_EDRN:62",
+      "checkpoint": "Paper_NoExplicitDuration_seed62.pth",
+      "sha256": "4f77e656f31a9d6272db7c112fdf66f7965c13b91062522c1618d9b9e76ae057",
+      "strict_state_dict_load": true,
+      "parameter_count": 323754,
+      "threshold": 0.9997158646583557,
+      "dummy_score": 0.002903965301811695,
+      "finite_score": true
+    }
+  ]
+}

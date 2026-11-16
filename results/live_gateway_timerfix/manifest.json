@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE",
+  "generated_at_utc": "2026-09-19T02:59:33.253234+00:00",
+  "device": "cuda",
+  "environment": {
+    "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "torch": "2.9.1+cu126",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "cuda_runtime": "12.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "cpu_threads": 4
+  },
+  "platform_machine": "AMD64",
+  "model": "DC_EDRN_optimized",
+  "inference_parameters": 323271,
+  "training_parameters": 323754,
+  "training_performed": false,
+  "thresholds_changed": false,
+  "checkpoint_sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+  "script_sha256": "4def6f919242deaa5fbd1f730da992b41607f321c66ebc26a957e16ede618a74",
+  "sample_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+  "duration_s": 20.0,
+  "rates_texts_s": [
+    10.0,
+    20.0,
+    40.0,
+    80.0
+  ],
+  "patterns": [
+    "periodic",
+    "bursty"
+  ],
+  "repeats": 3,
+  "warmup_per_batch": 10,
+  "cpu_threads": 4,
+  "method": "Live-clock producer thread and separate single-GPU worker thread. Synthetic periodic and bursty arrivals; local encoding, host-to-device transfer, inference and score return included. Requests are drained after the offered interval. Windows arrival deadlines use time.sleep; batching deadlines use <=1-ms sleep polling outside the queue lock.",
+  "scope": "In-process local screening worker; no HTTP, network, downstream LLM, multi-GPU, or distributed deployment.",
+  "completed_at_utc": "2026-09-19T03:24:06.184954+00:00",
+  "run_count": 48,
+  "timing_warning": false
+}

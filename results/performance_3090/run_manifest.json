@@ -1,0 +1,65 @@
+{
+  "fingerprint": "0e4258c2f1f0fc388e12f58a90e674e2fe2b1deb09ea486929e5bfe99d898605",
+  "generated_at_utc": "2026-09-19T01:44:24.202776+00:00",
+  "requested_stage": "all",
+  "training_performed": false,
+  "environment": {
+    "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "torch": "2.9.1+cu126",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "cuda_runtime": "12.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "cpu_threads": 4
+  },
+  "platform_machine": "AMD64",
+  "protocol": {
+    "files": {
+      "code/common.py": "7ce787dee924015f7ed812365133e61bfbf9f6ccf5a1f74b7178bdccbbaf76e7",
+      "code/measure.py": "82ea5921c522987315bb2716c29d5aa43595d4ab71fe7f763955331c7804beb3",
+      "code/optimized_dc.py": "dcc18d96fa0eaf7f1947c93057a8a275e6d02a8fcef2316d76a505d570ee7c36",
+      "code/vendor/DualResolutionCGEDRN-v7-search.py": "faf867ccc945ad9d047336c56f5e25e93d353f65a943d22800443c28a9ab19aa",
+      "code/vendor/MatchedLocalEncoderBaselines-v1.py": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+      "configs.json": "e98e710eda5351d4ca25e25ab61ea64d463483af2bffc182fccfdffde50e941c",
+      "data/evaluation.parquet": "a9d3d5ccdf3855234f47c866cb0c5612894b8bee5af7616dc185b76436b2f293",
+      "reference_checkpoints/BiLSTM_seed42.pth": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+      "reference_checkpoints/ByteCNN_seed42.pth": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+      "reference_checkpoints/DC_EDRN_seed42.pth": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+      "reference_thresholds.json": "4799be394df8499a5d7121c536b30c47ae0a555483532667e6c25bf15c6a200e"
+    },
+    "device": "cuda",
+    "smoke": false,
+    "torch": "2.9.1+cu126",
+    "precision": "FP32",
+    "atol": 1e-05,
+    "rtol": 1e-05,
+    "warmup": 20,
+    "repeats": 300,
+    "batches": [
+      1,
+      8,
+      32
+    ],
+    "cpu_threads": 4,
+    "environment": {
+      "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "torch": "2.9.1+cu126",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "cuda_runtime": "12.6",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "cpu_threads": 4
+    },
+    "gpu_properties": "_CudaDeviceProperties(name='NVIDIA GeForce RTX 3090', major=8, minor=6, total_memory=24575MB, multi_processor_count=82, uuid=REDACTED, pci_bus_id=1, pci_device_id=0, pci_domain_id=0, L2_cache_size=6MB)",
+    "tf32_matmul": false,
+    "tf32_cudnn": false
+  },
+  "scope": "Existing seed-42 checkpoint inference only. No fitting, optimization steps, threshold selection, or changes to the original experiment installation.",
+  "warning": null
+}

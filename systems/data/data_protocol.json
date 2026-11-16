@@ -1,0 +1,74 @@
+{
+  "mode": "existing_checkpoint_performance_only",
+  "training_performed": false,
+  "source_original_sha256": "2c412a16ae445df31b4e162860d1b3980f58b53ae12b62b9995860690bb950e7",
+  "source_prepared_sha256": "bbfc335b493fc3d9779fe80b672fe8928848d0d7551ad5f9c65d7420ca2f3ed9",
+  "source_audit_sha256": "dbd19fdcc72e517c0d99bdb6f3014d3abf1a7f0d6f64d4dc61d37f7574c7c2aa",
+  "evaluation_sha256": "a9d3d5ccdf3855234f47c866cb0c5612894b8bee5af7616dc185b76436b2f293",
+  "source_original_rows": 34116,
+  "source_prepared_rows": 33993,
+  "evaluation_rows": 3827,
+  "excluded_training_rows": 30166,
+  "known_match_exclusions": {
+    "diagnostic_obfuscation": 5,
+    "diagnostic_test": 57,
+    "val": 61
+  },
+  "construction": "Verify the existing prepared frame equals the original benchmark minus every unique evaluation ID flagged in the existing template/character-5-gram audit. Keep its row order and all columns, then remove train and train_context. No text edits, resampling, training, or threshold fitting.",
+  "checkpoint_history": "Existing seed42 weights retain original validation-based checkpoint selection. Filtering evaluation rows does not undo that selection and is not clean-validation retraining.",
+  "thresholds": "Read original thresholds from the saved checkpoints and filtered-validation thresholds from the completed supplementary records. Do not fit thresholds in this performance pack.",
+  "scope": "Known-match filtering is not proof of exhaustive semantic or near-duplicate independence.",
+  "dataset_card_reviewed": "https://huggingface.co/datasets/neuralchemy/Prompt-injection-dataset/blob/58d707d9e36adc17c2321c3375114711d3632322/README.md",
+  "actual_download_revision": null,
+  "actual_download_revision_status": "Not recorded in the available experiment source manifests. The reviewed card commit must not be presented as the revision used for the historical download.",
+  "split_counts": [
+    {
+      "split": "diagnostic_long_context",
+      "N": 500,
+      "Positive": 500,
+      "Benign": 0
+    },
+    {
+      "split": "diagnostic_notinject",
+      "N": 83,
+      "Positive": 0,
+      "Benign": 83
+    },
+    {
+      "split": "diagnostic_obfuscation",
+      "N": 489,
+      "Positive": 489,
+      "Benign": 0
+    },
+    {
+      "split": "diagnostic_overdefense",
+      "N": 500,
+      "Positive": 0,
+      "Benign": 500
+    },
+    {
+      "split": "diagnostic_test",
+      "N": 885,
+      "Positive": 496,
+      "Benign": 389
+    },
+    {
+      "split": "val",
+      "N": 880,
+      "Positive": 473,
+      "Benign": 407
+    },
+    {
+      "split": "val_notinject",
+      "N": 90,
+      "Positive": 0,
+      "Benign": 90
+    },
+    {
+      "split": "val_overdefense",
+      "N": 400,
+      "Positive": 0,
+      "Benign": 400
+    }
+  ]
+}

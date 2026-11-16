@@ -1,0 +1,236 @@
+{
+  "status": "PILOT_COMPLETE",
+  "scope": "CPU-only queue simulation with frozen DC-EDRN seed42; not a new accuracy result and not an RTX 3090 measurement.",
+  "training_performed": false,
+  "threshold_selection_performed": false,
+  "checkpoint": {
+    "selector": "DC_EDRN:42",
+    "model": "DC_EDRN",
+    "filename": "Paper_NoExplicitDuration_seed42.pth",
+    "original_config_name": "Paper_NoExplicitDuration",
+    "seed": 42,
+    "threshold": 0.9975558519363403,
+    "threshold_source": "Unmodified threshold field saved in the original checkpoint; historically selected on original validation data.",
+    "parameter_count": 323754,
+    "max_bytes": 512,
+    "max_words": 128,
+    "word_vocab": 8192,
+    "downsample": 4,
+    "sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+    "size_bytes": 1311609,
+    "source_reference": "03_reproduction_runtime/results/selected_checkpoints/Paper_NoExplicitDuration_seed42.pth",
+    "byte_identical_to_source": true,
+    "config_differences_from_copied_configs_json": {
+      "name": {
+        "copied_configs_json": "DC_EDRN",
+        "checkpoint_config": "Paper_NoExplicitDuration"
+      }
+    },
+    "reference_checkpoint": {
+      "source_reference": "ISPA2026_Experiments_20260917/reference_checkpoints/DC_EDRN_seed42.pth",
+      "sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+      "byte_identical": true
+    }
+  },
+  "device": "cpu",
+  "cpu_threads": 4,
+  "requests": 32,
+  "timing_repeats": 3,
+  "service_times": {
+    "1": {
+      "batch_size": 1,
+      "mean_service_s": 0.1679970333328432,
+      "p95_service_s": 0.1705739499964693,
+      "texts_per_s": 5.9524860657435275,
+      "samples": 3
+    },
+    "4": {
+      "batch_size": 4,
+      "mean_service_s": 0.3240717000007862,
+      "p95_service_s": 0.33175646999952735,
+      "texts_per_s": 12.342947563734494,
+      "samples": 3
+    },
+    "8": {
+      "batch_size": 8,
+      "mean_service_s": 0.33505306666726636,
+      "p95_service_s": 0.344258359997184,
+      "texts_per_s": 23.876814737364036,
+      "samples": 3
+    },
+    "16": {
+      "batch_size": 16,
+      "mean_service_s": 0.3398270666633228,
+      "p95_service_s": 0.3507262899955094,
+      "texts_per_s": 47.082771119734545,
+      "samples": 3
+    },
+    "32": {
+      "batch_size": 32,
+      "mean_service_s": 0.38311833333136747,
+      "p95_service_s": 0.38731826999792246,
+      "texts_per_s": 83.5251075607559,
+      "samples": 3
+    }
+  },
+  "scheduling_metrics": [
+    {
+      "rate_texts_s": 5.0,
+      "policy": "single_request",
+      "requests": 32,
+      "arrival_span_s": 6.2,
+      "makespan_s": 6.367997033332843,
+      "throughput_texts_s": 5.025127969202592,
+      "mean_latency_ms": 167.9970333328431,
+      "p50_latency_ms": 167.9970333328431,
+      "p95_latency_ms": 167.99703333284333,
+      "p99_latency_ms": 167.99703333284333,
+      "max_latency_ms": 167.99703333284333
+    },
+    {
+      "rate_texts_s": 5.0,
+      "policy": "fixed_batch_8_wait_20ms",
+      "requests": 32,
+      "arrival_span_s": 6.2,
+      "makespan_s": 6.387997033332843,
+      "throughput_texts_s": 5.009394937571609,
+      "mean_latency_ms": 187.99703333284296,
+      "p50_latency_ms": 187.99703333284313,
+      "p95_latency_ms": 187.99703333284333,
+      "p99_latency_ms": 187.99703333284333,
+      "max_latency_ms": 187.99703333284333
+    },
+    {
+      "rate_texts_s": 5.0,
+      "policy": "dynamic_batch_32_wait_5ms",
+      "requests": 32,
+      "arrival_span_s": 6.2,
+      "makespan_s": 6.372997033332843,
+      "throughput_texts_s": 5.021185453661694,
+      "mean_latency_ms": 172.99703333284302,
+      "p50_latency_ms": 172.997033332843,
+      "p95_latency_ms": 172.99703333284322,
+      "p99_latency_ms": 172.99703333284322,
+      "max_latency_ms": 172.99703333284322
+    },
+    {
+      "rate_texts_s": 10.0,
+      "policy": "single_request",
+      "requests": 32,
+      "arrival_span_s": 3.1,
+      "makespan_s": 5.37590506665098,
+      "throughput_texts_s": 5.952486065743529,
+      "mean_latency_ms": 1221.9510499919124,
+      "p50_latency_ms": 1221.9510499919127,
+      "p95_latency_ms": 2170.509664985074,
+      "p99_latency_ms": 2254.8259863177987,
+      "max_latency_ms": 2275.90506665098
+    },
+    {
+      "rate_texts_s": 10.0,
+      "policy": "fixed_batch_8_wait_20ms",
+      "requests": 32,
+      "arrival_span_s": 3.1,
+      "makespan_s": 3.527546200005163,
+      "throughput_texts_s": 9.071461629603366,
+      "mean_latency_ms": 475.52873437798564,
+      "p50_latency_ms": 469.2637833358216,
+      "p95_latency_ms": 640.8182550036438,
+      "p99_latency_ms": 641.9035443352585,
+      "max_latency_ms": 642.1748666681623
+    },
+    {
+      "rate_texts_s": 10.0,
+      "policy": "dynamic_batch_32_wait_5ms",
+      "requests": 32,
+      "arrival_span_s": 3.1,
+      "makespan_s": 3.6028725333256677,
+      "throughput_texts_s": 8.881801868927647,
+      "mean_latency_ms": 511.5785583292468,
+      "p50_latency_ms": 520.6950333286167,
+      "p95_latency_ms": 688.1096483294624,
+      "p99_latency_ms": 701.2269396599763,
+      "max_latency_ms": 702.8725333256677
+    },
+    {
+      "rate_texts_s": 20.0,
+      "policy": "single_request",
+      "requests": 32,
+      "arrival_span_s": 1.55,
+      "makespan_s": 5.37590506665098,
+      "throughput_texts_s": 5.952486065743529,
+      "mean_latency_ms": 1996.9510499919124,
+      "p50_latency_ms": 1996.9510499919127,
+      "p95_latency_ms": 3643.0096649850734,
+      "p99_latency_ms": 3789.325986317799,
+      "max_latency_ms": 3825.90506665098
+    },
+    {
+      "rate_texts_s": 20.0,
+      "policy": "fixed_batch_8_wait_20ms",
+      "requests": 32,
+      "arrival_span_s": 1.55,
+      "makespan_s": 1.952281000002695,
+      "throughput_texts_s": 16.391083045911845,
+      "mean_latency_ms": 478.6134427098418,
+      "p50_latency_ms": 484.5952666672626,
+      "p95_latency_ms": 644.4487466684322,
+      "p99_latency_ms": 650.7145493358425,
+      "max_latency_ms": 652.281000002695
+    },
+    {
+      "rate_texts_s": 20.0,
+      "policy": "dynamic_batch_32_wait_5ms",
+      "requests": 32,
+      "arrival_span_s": 1.55,
+      "makespan_s": 2.065523433325579,
+      "throughput_texts_s": 15.492441036352059,
+      "mean_latency_ms": 544.5523208290675,
+      "p50_latency_ms": 545.2275999971607,
+      "p95_latency_ms": 720.8701833264638,
+      "p99_latency_ms": 753.7067499928554,
+      "max_latency_ms": 765.5234333255792
+    },
+    {
+      "rate_texts_s": 40.0,
+      "policy": "single_request",
+      "requests": 32,
+      "arrival_span_s": 0.775,
+      "makespan_s": 5.37590506665098,
+      "throughput_texts_s": 5.952486065743529,
+      "mean_latency_ms": 2384.4510499919124,
+      "p50_latency_ms": 2384.451049991913,
+      "p95_latency_ms": 4379.259664985074,
+      "p99_latency_ms": 4556.575986317798,
+      "max_latency_ms": 4600.90506665098
+    },
+    {
+      "rate_texts_s": 40.0,
+      "policy": "fixed_batch_8_wait_20ms",
+      "requests": 32,
+      "arrival_span_s": 0.775,
+      "makespan_s": 1.5402122666690656,
+      "throughput_texts_s": 20.776357059669888,
+      "mean_latency_ms": 639.2871656264653,
+      "p50_latency_ms": 650.1326666681659,
+      "p95_latency_ms": 901.4622666690656,
+      "p99_latency_ms": 932.4622666690657,
+      "max_latency_ms": 940.2122666690657
+    },
+    {
+      "rate_texts_s": 40.0,
+      "policy": "dynamic_batch_32_wait_5ms",
+      "requests": 32,
+      "arrival_span_s": 0.775,
+      "makespan_s": 1.3373520333269457,
+      "throughput_texts_s": 23.927880769279003,
+      "mean_latency_ms": 561.7336999955783,
+      "p50_latency_ms": 568.2928666612619,
+      "p95_latency_ms": 742.6987833278304,
+      "p99_latency_ms": 758.2853499942219,
+      "max_latency_ms": 762.3520333269458
+    }
+  ],
+  "arrival_trace": "deterministic periodic arrivals at 5, 10, 20, and 40 texts/s",
+  "interpretation": "Scheduling metrics include virtual queue delay and measured mean batch service. They do not claim distributed or multi-GPU scaling."
+}

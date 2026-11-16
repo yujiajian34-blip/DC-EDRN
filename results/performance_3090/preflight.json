@@ -1,0 +1,48 @@
+{
+  "fingerprint": "0e4258c2f1f0fc388e12f58a90e674e2fe2b1deb09ea486929e5bfe99d898605",
+  "generated_at_utc": "2026-09-19T01:44:24.672066+00:00",
+  "status": "PASS",
+  "training_performed": false,
+  "evaluation_rows": 3827,
+  "split_counts": {
+    "diagnostic_long_context": 500,
+    "diagnostic_notinject": 83,
+    "diagnostic_obfuscation": 489,
+    "diagnostic_overdefense": 500,
+    "diagnostic_test": 885,
+    "val": 880,
+    "val_notinject": 90,
+    "val_overdefense": 400
+  },
+  "models": [
+    {
+      "model": "DC_EDRN",
+      "training_parameters": 323754,
+      "inference_parameters": 323271,
+      "thresholds": {
+        "original_threshold": 0.9975558519363403,
+        "filtered_validation_recalibration": 0.9975530505180359
+      }
+    },
+    {
+      "model": "BiLSTM",
+      "training_parameters": 355074,
+      "inference_parameters": 354591,
+      "thresholds": {
+        "original_threshold": 0.9999957084655762,
+        "filtered_validation_recalibration": 0.9999957084655762
+      }
+    },
+    {
+      "model": "ByteCNN",
+      "training_parameters": 386274,
+      "inference_parameters": 385791,
+      "thresholds": {
+        "original_threshold": 0.999906063079834,
+        "filtered_validation_recalibration": 0.9999042749404907
+      }
+    }
+  ],
+  "compile_enabled": false,
+  "bidirectional_batching_enabled": false
+}

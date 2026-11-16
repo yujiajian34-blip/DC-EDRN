@@ -1,0 +1,7 @@
+# Direct imports required by the unchanged historical model modules.
+# Use an appropriate CPU or CUDA PyTorch build for your platform.
+torch>=2.3,<3
+numpy>=1.26,<3
+pandas>=2.0,<4
+scikit-learn>=1.4,<2
+tqdm>=4.66,<5

@@ -1,0 +1,2 @@
+ReferenceModel,Seeds,MeanF1Difference,MeanF1Difference_CI95_Low,MeanF1Difference_CI95_High,MeanAccuracyDifference_CI95_Low,MeanAccuracyDifference_CI95_High,F1DifferenceSignificant
+DC_EDRN,3,0.0702643316576685,0.05808905218039436,0.08329794226906805,0.05235404896421847,0.07457627118644065,True

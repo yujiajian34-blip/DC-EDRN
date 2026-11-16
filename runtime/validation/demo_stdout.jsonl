@@ -1,0 +1,1 @@
+{"id": 1, "model": "DC_EDRN", "original_config_name": "Paper_NoExplicitDuration", "checkpoint": "Paper_NoExplicitDuration_seed42.pth", "seed": 42, "score": 0.955367922782898, "threshold": 0.9975558519363403, "prediction": 0, "byte_truncated": false, "word_truncated": false}

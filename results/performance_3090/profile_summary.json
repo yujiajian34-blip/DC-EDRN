@@ -1,0 +1,24 @@
+{
+  "fingerprint": "0e4258c2f1f0fc388e12f58a90e674e2fe2b1deb09ea486929e5bfe99d898605",
+  "generated_at_utc": "2026-09-19T01:48:56.395490+00:00",
+  "status": "PASS",
+  "models": [
+    {
+      "model": "DC_EDRN_original",
+      "batch": 1,
+      "recorded_forward_calls": 1,
+      "trace": "profile_DC_EDRN_original.json",
+      "events": "profile_DC_EDRN_original_events.csv"
+    },
+    {
+      "model": "DC_EDRN_optimized",
+      "batch": 1,
+      "recorded_forward_calls": 1,
+      "trace": "profile_DC_EDRN_optimized.json",
+      "events": "profile_DC_EDRN_optimized_events.csv"
+    }
+  ],
+  "smoke_only": false,
+  "chosen_optimization": "precompute",
+  "interpretation": "Diagnostic instrumented traces, not benchmark latency. CPU event time includes dispatch and possible waits; it is not a pure launch-overhead measurement. Inclusive events overlap; GPU events may overlap. Do not add CPU and GPU totals, sum nested inclusive rows, or subtract either total from wall latency to claim an overhead fraction. Use screening_cost.csv for latency."
+}

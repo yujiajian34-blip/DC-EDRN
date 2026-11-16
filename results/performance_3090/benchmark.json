@@ -1,0 +1,20 @@
+{
+  "fingerprint": "0e4258c2f1f0fc388e12f58a90e674e2fe2b1deb09ea486929e5bfe99d898605",
+  "generated_at_utc": "2026-09-19T01:48:45.603125+00:00",
+  "status": "PASS",
+  "smoke_only": false,
+  "rows": 24,
+  "sample_size": 128,
+  "warmup": 20,
+  "repeats": 300,
+  "batches": [
+    1,
+    8,
+    32
+  ],
+  "chosen_optimization": "precompute",
+  "sample_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+  "device": "cuda",
+  "supports_gpu_performance_claims": true,
+  "scope": "Local component replay. forward_only uses resident encoded tensors and includes sigmoid; the full component additionally includes text encoding, transfer, and scores copied to CPU. No networking, queueing, or downstream LLM. GPU memory includes the model and resident input buffers. Compilation is disabled."
+}

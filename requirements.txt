@@ -1,0 +1,2 @@
+-r runtime/requirements.txt
+pyarrow>=15,<24

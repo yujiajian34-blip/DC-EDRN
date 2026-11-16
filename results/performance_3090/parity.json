@@ -1,0 +1,82 @@
+{
+  "fingerprint": "0e4258c2f1f0fc388e12f58a90e674e2fe2b1deb09ea486929e5bfe99d898605",
+  "generated_at_utc": "2026-09-19T01:44:49.741381+00:00",
+  "status": "PASS",
+  "chosen_optimization": "precompute",
+  "previous_attempt": null,
+  "smoke_only": false,
+  "evaluated_rows": 3827,
+  "expected_formal_rows": 3827,
+  "batch_size": 64,
+  "logit_atol": 1e-05,
+  "logit_rtol": 1e-05,
+  "finite": true,
+  "max_abs_logit_diff": 1.5020370483398438e-05,
+  "max_abs_score_diff": 1.385807991027832e-06,
+  "logits_close": true,
+  "thresholds": {
+    "original_threshold": 0.9975558519363403,
+    "filtered_validation_recalibration": 0.9975530505180359
+  },
+  "prediction_differences": {
+    "original_threshold": 0,
+    "filtered_validation_recalibration": 0
+  },
+  "edge_cases": {
+    "count": 14,
+    "max_abs_logit_diff": 1.9073486328125e-06,
+    "logits_close": true,
+    "prediction_differences": {
+      "original_threshold": 0,
+      "filtered_validation_recalibration": 0
+    }
+  },
+  "mask_direction_cases": [
+    {
+      "reverse": false,
+      "max_abs_diff": 9.5367431640625e-07,
+      "passed": true
+    },
+    {
+      "reverse": true,
+      "max_abs_diff": 1.0728836059570312e-06,
+      "passed": true
+    }
+  ],
+  "timing_batch_cases": [
+    {
+      "batch_size": 1,
+      "rows": 128,
+      "max_abs_logit_diff": 2.86102294921875e-06,
+      "prediction_differences": {
+        "original_threshold": 0,
+        "filtered_validation_recalibration": 0
+      },
+      "passed": true
+    },
+    {
+      "batch_size": 8,
+      "rows": 128,
+      "max_abs_logit_diff": 2.86102294921875e-06,
+      "prediction_differences": {
+        "original_threshold": 0,
+        "filtered_validation_recalibration": 0
+      },
+      "passed": true
+    },
+    {
+      "batch_size": 32,
+      "rows": 128,
+      "max_abs_logit_diff": 0.0,
+      "prediction_differences": {
+        "original_threshold": 0,
+        "filtered_validation_recalibration": 0
+      },
+      "passed": true
+    }
+  ],
+  "parameters_identical": true,
+  "architecture_unchanged": true,
+  "training_performed": false,
+  "scope": "Algebraic implementation consistency; not retraining or a statistical convergence proof."
+}

@@ -1,0 +1,22 @@
+{
+  "historical_neuralchemy_download_revision": null,
+  "documentation_revision_only": "58d707d9e36adc17c2321c3375114711d3632322",
+  "notinject_revision_recorded_by_v2_summary": "66de06ebdf776bf2a53a0bec22a05694b61f362b",
+  "raw_core_file_sha256": {
+    "core_train.parquet": "c0724f8e00eebb65c001be9ba94291d1608e5da0374012e53dfd4077c5f92558",
+    "core_validation.parquet": "bbd417bfd0df1553dd769e814a0b62ca58ad5b1d08d153c90f66937a4af74deb",
+    "core_test.parquet": "fb5432035fdd8453d61f6593bfe78ee2970403c5ea59959b642a6708e2bef670"
+  },
+  "original_benchmark_sha256": "2c412a16ae445df31b4e162860d1b3980f58b53ae12b62b9995860690bb950e7",
+  "original_benchmark_rows": 34116,
+  "filtered_supplement_rows": 33993,
+  "excluded_rows_by_split": {
+    "diagnostic_obfuscation": 5,
+    "diagnostic_test": 57,
+    "val": 61
+  },
+  "primary_test_protocol": "Only flagged diagnostic-test IDs excluded; original selected thresholds and checkpoints retained.",
+  "fixed_checkpoint_supplement_protocol": "Exclude 61 validation, 57 diagnostic-test, 5 obfuscation IDs; hold seed42 weights fixed, recalibrate thresholds on filtered validation only.",
+  "selection_history": "Historical checkpoint selection used original validation; no cleaned-validation checkpoint reselection or retraining was performed.",
+  "redistribution": "Raw and derived prompt text deliberately absent from the public candidate."
+}

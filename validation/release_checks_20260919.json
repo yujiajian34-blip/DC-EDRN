@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "date": "2026-09-19",
+  "training_performed": false,
+  "gpu_rerun_performed": false,
+  "primary_cpu_checkpoints": 18,
+  "archived_arithmetic_checks": 24,
+  "demo_jsonl_predictions": 2,
+  "systems_input_rows_verified": 3827,
+  "systems_smoke": {
+    "device": "cpu",
+    "completion": "COMPLETE",
+    "stages": {
+      "preflight": "PASS",
+      "parity": "PASS",
+      "benchmark": "PASS",
+      "profile": "PASS"
+    },
+    "parity_rows": 20,
+    "profiler_traces": {
+      "DC_EDRN_original": {
+        "valid_json": true,
+        "nonempty_trace_events": true,
+        "bytes": 25070211
+      },
+      "DC_EDRN_optimized": {
+        "valid_json": true,
+        "nonempty_trace_events": true,
+        "bytes": 17830697
+      }
+    }
+  },
+  "worker_smoke": {
+    "device": "cpu",
+    "status": "COMPLETE",
+    "run_count": 2
+  },
+  "manifest_negative_tests": {
+    "valid": true,
+    "modified": true,
+    "missing": true,
+    "unexpected": true
+  },
+  "process_environment": {
+    "MKL_THREADING_LAYER": "SEQUENTIAL"
+  },
+  "limitations": [
+    "Existing mixed Conda/user-site packages, not a newly isolated installation.",
+    "CPU smoke and archived arithmetic do not reproduce GPU timings or complete model training.",
+    "Initial duplicate OpenMP failure resolved for these processes with sequential MKL.",
+    "Initial missing profiler traces on Unicode path fixed and both final JSON traces verified."
+  ]
+}

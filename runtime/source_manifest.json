@@ -1,0 +1,39 @@
+{
+  "scope": "Copied historical source and configuration; license notices are retained without assigning new rights. Checkpoints have their own manifest.",
+  "files": [
+    {
+      "source_reference": "ISPA2026_Experiments_20260917/code/common.py",
+      "runtime_path": "code/common.py",
+      "original_sha256": "7ce787dee924015f7ed812365133e61bfbf9f6ccf5a1f74b7178bdccbbaf76e7",
+      "released_sha256": "7ce787dee924015f7ed812365133e61bfbf9f6ccf5a1f74b7178bdccbbaf76e7",
+      "byte_identical": true,
+      "modifications": []
+    },
+    {
+      "source_reference": "ISPA2026_Experiments_20260917/code/vendor/MatchedLocalEncoderBaselines-v1.py",
+      "runtime_path": "code/vendor/MatchedLocalEncoderBaselines-v1.py",
+      "original_sha256": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+      "released_sha256": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+      "byte_identical": true,
+      "modifications": []
+    },
+    {
+      "source_reference": "ISPA2026_Experiments_20260917/code/vendor/DualResolutionCGEDRN-v7-search.py",
+      "runtime_path": "code/vendor/DualResolutionCGEDRN-v7-search.py",
+      "original_sha256": "faf867ccc945ad9d047336c56f5e25e93d353f65a943d22800443c28a9ab19aa",
+      "released_sha256": "f09db8308b5b744a88aece27aa8fb2d9e5fa1429c2e4fc9b2c448096ce0145fd",
+      "byte_identical": false,
+      "modifications": [
+        "Replace DEFAULT_DATA_FILE author-machine absolute default with data/neuralchemy_context_gated_benchmark_v3.parquet; replace DEFAULT_SAVE_DIR absolute default with results/dual_resolution_cgedrn_v7. No numerical code changed."
+      ]
+    },
+    {
+      "source_reference": "ISPA2026_Experiments_20260917/configs.json",
+      "runtime_path": "configs.json",
+      "original_sha256": "e98e710eda5351d4ca25e25ab61ea64d463483af2bffc182fccfdffde50e941c",
+      "released_sha256": "e98e710eda5351d4ca25e25ab61ea64d463483af2bffc182fccfdffde50e941c",
+      "byte_identical": true,
+      "modifications": []
+    }
+  ]
+}

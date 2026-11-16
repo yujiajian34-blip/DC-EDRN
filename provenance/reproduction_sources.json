@@ -1,0 +1,149 @@
+[
+  {
+    "source": "historical_runtime/code/DualResolutionCGEDRN-v7-search.py",
+    "target": "reproduction/code/DualResolutionCGEDRN-v7-search.py",
+    "original_sha256": "faf867ccc945ad9d047336c56f5e25e93d353f65a943d22800443c28a9ab19aa",
+    "packaged_sha256": "5caaa57ddbc6468fc2e91d19587402a84a3d307d291e18048b3f90bc05bd5d32",
+    "changes": "Only default absolute local paths made package-relative; UTF-8/LF normalization."
+  },
+  {
+    "source": "historical_runtime/code/MatchedLocalEncoderBaselines-v1.py",
+    "target": "reproduction/code/MatchedLocalEncoderBaselines-v1.py",
+    "original_sha256": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+    "packaged_sha256": "c96ca8cc6a0e7bd8cd60fe60b8a62225c09b1005fb1b9517ed2714520e820244",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/FairMatchedLocalTuning-v2.py",
+    "target": "reproduction/code/FairMatchedLocalTuning-v2.py",
+    "original_sha256": "a9eee471080355469c8d435f850a56e4de8bc690746f4a325afb2db6fc9e7727",
+    "packaged_sha256": "dd864c219f1c40a17c37222c6a855acdf71c74a7dadf163b36843804fe13fcba",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/PaperAblations-v1.py",
+    "target": "reproduction/code/PaperAblations-v1.py",
+    "original_sha256": "c4abcb850a5e1a4acb785dab7197e9622750e6ed8ce615fd40e84a8f1a9b5ec3",
+    "packaged_sha256": "52f20b7d29688edb3e1b2ed544f532ec7ae2561bbdcf090461139dfa4e5239d3",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/BudgetMatchedSuite-v1.py",
+    "target": "reproduction/code/BudgetMatchedSuite-v1.py",
+    "original_sha256": "56957b8520b9733fc82aa0328eaf5d9b82b84499b8e16dc28c32258fafd152c1",
+    "packaged_sha256": "051cc3b624d9a3f952042b599bb0deaea1487a5724bd116ada0d0136577161f7",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/build_edrn_benchmark_v2.py",
+    "target": "reproduction/code/build_edrn_benchmark_v2.py",
+    "original_sha256": "8be9f58fdc901e6b60a1fcb73fb61e58859180594ce27219fc845a50984534a4",
+    "packaged_sha256": "bdd55e5b275dee3d353e100ad2d5df31f133a0c3d3f4975fbf4752964d67aeb3",
+    "changes": "Only default absolute local paths made package-relative; UTF-8/LF normalization."
+  },
+  {
+    "source": "historical_runtime/code/build_context_gated_benchmark_v3.py",
+    "target": "reproduction/code/build_context_gated_benchmark_v3.py",
+    "original_sha256": "c8e3f8b10c6c6d83a9ee0c48a6cbc3c27d063a1e0703f14c75b7dcb39c16cdd8",
+    "packaged_sha256": "4a3c2257318d5465c56a721c5cf90fe4be7b17d2b7b6384f9bccecb4cf708d7e",
+    "changes": "Only default absolute local paths made package-relative; UTF-8/LF normalization."
+  },
+  {
+    "source": "historical_runtime/code/BuildBIPIAExternalDetection-v1.py",
+    "target": "reproduction/code/BuildBIPIAExternalDetection-v1.py",
+    "original_sha256": "226b10a0290467ab8adb3a0992bae5a1303c6f26364fbf62fb3247ba68674784",
+    "packaged_sha256": "40a2ab585c8a676aa268b9cdf635e24a7612bd63963d9063df10d7db489acb31",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/BuildPIGuardBIPIA-v1.py",
+    "target": "reproduction/code/BuildPIGuardBIPIA-v1.py",
+    "original_sha256": "64e6e165d80efa4025520fedac8c9063282d6b2b32253d3469b71d6c94ca8930",
+    "packaged_sha256": "626cacaa41fba4510e830fc4521e372231743abb450ec923db2c31a7a41b9f84",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/BuildAdaptiveTextRobustness-v1.py",
+    "target": "reproduction/code/BuildAdaptiveTextRobustness-v1.py",
+    "original_sha256": "78bd08a964bd5cab4e782ea8bccad04bc76f42281815fd533365d75c63cf65e8",
+    "packaged_sha256": "f915e83bd41ecc9268c3e196acf2a330d3aca2d2fee300cb1b2cd940007a8293",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/SummarizeAdaptiveTextRobustness-v1.py",
+    "target": "reproduction/code/SummarizeAdaptiveTextRobustness-v1.py",
+    "original_sha256": "c2e5e7585601cc8fb3e18be073f54e701f2a98724b2e436f271dab130bf88758",
+    "packaged_sha256": "f3bfe1b0967be0cc6e713cd2d74a8238711fbca917edec874806ff94f03442ad",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/EvaluateFrozenModelsExternal-v1.py",
+    "target": "reproduction/code/EvaluateFrozenModelsExternal-v1.py",
+    "original_sha256": "c76716dce98e73e9b5d007b823d501910e8935ab4197b01b290a55fb86915092",
+    "packaged_sha256": "78b0361cf5c72d6d10fea6d5ca6c58e2a79ae2eac7d373223ec1c6b08cfc98e5",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/EvaluateRecentPromptGuards-v2.py",
+    "target": "reproduction/code/EvaluateRecentPromptGuards-v2.py",
+    "original_sha256": "04f5f8e6af06c1838d1b7256a373251336c47d52d46b8dbc87e9a106d0ac2f4d",
+    "packaged_sha256": "f20804b25ba1f1bb37e429cdeea0f3375fc0004e5fc66342cb29becb11ef839a",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/EvaluateClassicalFrozen-v1.py",
+    "target": "reproduction/code/EvaluateClassicalFrozen-v1.py",
+    "original_sha256": "b913bbd17904e6df4ac3738e987ec9668b3c2b871e5fb623576b9948dd2fc98e",
+    "packaged_sha256": "5934b45a13393c9f05d3570aee113429745a12e0c5f5bd53e0dbdf455b226a0d",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/run_classical_baselines_v1.py",
+    "target": "reproduction/code/run_classical_baselines_v1.py",
+    "original_sha256": "ca7a8c8726569348fbe59895d12b9af2708470fe9d4234232f74bcf84ed7321f",
+    "packaged_sha256": "1a3dc0bb63903973cf4a9eeee1694739c341d4961dec270e99c3b12f8f5df67a",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/AuditDatasetLeakage-v1.py",
+    "target": "reproduction/code/AuditDatasetLeakage-v1.py",
+    "original_sha256": "d9de2e3234098c0dcd5a8465994bbce1492b24acab60771ea2660399788239ab",
+    "packaged_sha256": "e254184d132172fa3ae8af32f55ece1c940cc8fc336e900670c9724562282cea",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/PrepareLeakageFilteredEval-v1.py",
+    "target": "reproduction/code/PrepareLeakageFilteredEval-v1.py",
+    "original_sha256": "e7bd8f621d70475776192da57c08ae704c11a494397001f6561cfe85779c1646",
+    "packaged_sha256": "2282f70c3b05c9e7e5d7e169ee6318088cbc4a93babea41f8114a915de77175d",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/StatisticalTests-v1.py",
+    "target": "reproduction/code/StatisticalTests-v1.py",
+    "original_sha256": "41fa6e808a5e39b71b99d47c2df9e2ba93b2fcdccb783013ef623e9c48edbc27",
+    "packaged_sha256": "ef6d9b462876984740274ace55f346ec27351a6251c682dc8a2c721039a16bc2",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/PaperFinalEvidence-v1.py",
+    "target": "reproduction/code/PaperFinalEvidence-v1.py",
+    "original_sha256": "4b15868c85233e69d6c1ce34ec515b44ca343fb9b916be66b99be3cb00e2f09c",
+    "packaged_sha256": "6c7087ca6ec29dfe274722478a0e18bdc0c9b32652213e1ad96712787a925696",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/PairedBootstrap-v1.py",
+    "target": "reproduction/code/PairedBootstrap-v1.py",
+    "original_sha256": "89d583b4ef0863af3c304de911808088b36d18948d39acf79e9b4c37fdad1178",
+    "packaged_sha256": "5d94e2d069eb7247435ca1adca2f5b114f8fba58e3b4f30c359d5a42bc987823",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  },
+  {
+    "source": "historical_runtime/code/AnalyzeFrozenPredictions-v1.py",
+    "target": "reproduction/code/AnalyzeFrozenPredictions-v1.py",
+    "original_sha256": "42f3493b835ff0b4fa10e5d92bf5b13537ca42c5f310f55eed59384d8932e5ad",
+    "packaged_sha256": "d959dcff97d922cc81b84f39709381d80c5c137b161ecac885254baf2335eb39",
+    "changes": "UTF-8/LF normalization only; logic unchanged."
+  }
+]

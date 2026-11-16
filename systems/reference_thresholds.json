@@ -1,0 +1,14 @@
+{
+  "DC_EDRN": {
+    "filtered_validation_recalibration": 0.9975530505180359,
+    "original_threshold": 0.9975558519363403
+  },
+  "BiLSTM": {
+    "filtered_validation_recalibration": 0.9999957084655762,
+    "original_threshold": 0.9999957084655762
+  },
+  "ByteCNN": {
+    "filtered_validation_recalibration": 0.9999042749404907,
+    "original_threshold": 0.999906063079834
+  }
+}

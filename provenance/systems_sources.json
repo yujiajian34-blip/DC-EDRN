@@ -1,0 +1,206 @@
+[
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "benchmark.json",
+    "target": "results/performance_3090/benchmark.json",
+    "original_sha256": "91c7850b5e71aa100fa2e71e6f8ee297e14255396e4cd82b229bb4667b397211",
+    "packaged_sha256": "91c7850b5e71aa100fa2e71e6f8ee297e14255396e4cd82b229bb4667b397211",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "benchmark_sample_ids.csv",
+    "target": "results/performance_3090/benchmark_sample_ids.csv",
+    "original_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+    "packaged_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "completion.json",
+    "target": "results/performance_3090/completion.json",
+    "original_sha256": "49f6a6f2c5ef233c226a2b49b51b77ab918edcfdf9de95b81ec20339b84ab512",
+    "packaged_sha256": "49f6a6f2c5ef233c226a2b49b51b77ab918edcfdf9de95b81ec20339b84ab512",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "parity.json",
+    "target": "results/performance_3090/parity.json",
+    "original_sha256": "c43eb3250f7309fd199b0ef6d7a484271ebca0851f07219b05b38ea7f0291566",
+    "packaged_sha256": "c43eb3250f7309fd199b0ef6d7a484271ebca0851f07219b05b38ea7f0291566",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "parity_metrics.csv",
+    "target": "results/performance_3090/parity_metrics.csv",
+    "original_sha256": "f083bac41183fb917323d4927faea642814dc88ccce2174e58bf8f07f6813065",
+    "packaged_sha256": "f083bac41183fb917323d4927faea642814dc88ccce2174e58bf8f07f6813065",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "preflight.json",
+    "target": "results/performance_3090/preflight.json",
+    "original_sha256": "d8ddfe00fc4e3e8253613e2e7dad53a50c29a3e2e51288a13258648503ae414c",
+    "packaged_sha256": "d8ddfe00fc4e3e8253613e2e7dad53a50c29a3e2e51288a13258648503ae414c",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "profile_summary.json",
+    "target": "results/performance_3090/profile_summary.json",
+    "original_sha256": "853f3d195ec76791671e57488e580ffa802d75e220c16a74e293ee5d4b4d6617",
+    "packaged_sha256": "853f3d195ec76791671e57488e580ffa802d75e220c16a74e293ee5d4b4d6617",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "run_manifest.json",
+    "target": "results/performance_3090/run_manifest.json",
+    "original_sha256": "50fb1653f62fbbc309e0b7870174f8a9f2b9e3d5ab300e23dbce0706ee5e539d",
+    "packaged_sha256": "bc832f0d9a5ca585484b6a2bb71bb159240ee261a85d34d37f377c3de3237ea6",
+    "changes": "GPU UUID redacted; scientific fields unchanged; JSON formatting normalized."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "screening_cost.csv",
+    "target": "results/performance_3090/screening_cost.csv",
+    "original_sha256": "63e89e7c265262b865bcc8a2a4fbab57c86491bf02c98824ab8540cdd86193e6",
+    "packaged_sha256": "63e89e7c265262b865bcc8a2a4fbab57c86491bf02c98824ab8540cdd86193e6",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "archive_sha256": "a7a025c343611fcd02d78a67b329d75007467eb9371a27768e83235e6af7adb2",
+    "member": "timing_samples.csv",
+    "target": "results/performance_3090/timing_samples.csv",
+    "original_sha256": "82d8419a4e8cda1d6d315fa0a6cd4d3455b0e6ee768a88d1ff41a06a049e7021",
+    "packaged_sha256": "82d8419a4e8cda1d6d315fa0a6cd4d3455b0e6ee768a88d1ff41a06a049e7021",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "member": "code/common.py",
+    "target": "systems/code/common.py",
+    "original_sha256": "7ce787dee924015f7ed812365133e61bfbf9f6ccf5a1f74b7178bdccbbaf76e7",
+    "packaged_sha256": "7ce787dee924015f7ed812365133e61bfbf9f6ccf5a1f74b7178bdccbbaf76e7",
+    "changes": "Portable model defaults for vendor module; safe weights-only load in measure.py; line endings normalized. Numerical model and timing logic unchanged."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "member": "code/measure.py",
+    "target": "systems/code/measure.py",
+    "original_sha256": "82ea5921c522987315bb2716c29d5aa43595d4ab71fe7f763955331c7804beb3",
+    "packaged_sha256": "c8c257ccbcf5ea42e07096d5bfd0a743e4c0c20110ff883205f83ee25d1b66f3",
+    "changes": "Safe weights-only checkpoint loading; UTF-8/LF normalization; profiler trace export through ASCII temporary relative path with JSON/existence verification for Unicode Windows directories. Numerical and timing logic unchanged."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "member": "code/optimized_dc.py",
+    "target": "systems/code/optimized_dc.py",
+    "original_sha256": "dcc18d96fa0eaf7f1947c93057a8a275e6d02a8fcef2316d76a505d570ee7c36",
+    "packaged_sha256": "dcc18d96fa0eaf7f1947c93057a8a275e6d02a8fcef2316d76a505d570ee7c36",
+    "changes": "Portable model defaults for vendor module; safe weights-only load in measure.py; line endings normalized. Numerical model and timing logic unchanged."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "member": "code/vendor/DualResolutionCGEDRN-v7-search.py",
+    "target": "systems/code/vendor/DualResolutionCGEDRN-v7-search.py",
+    "original_sha256": "faf867ccc945ad9d047336c56f5e25e93d353f65a943d22800443c28a9ab19aa",
+    "packaged_sha256": "f09db8308b5b744a88aece27aa8fb2d9e5fa1429c2e4fc9b2c448096ce0145fd",
+    "changes": "Portable model defaults for vendor module; safe weights-only load in measure.py; line endings normalized. Numerical model and timing logic unchanged."
+  },
+  {
+    "source_archive": "PERFORMANCE_RESULTS_TO_RETURN_3090_20260919.zip",
+    "member": "code/vendor/MatchedLocalEncoderBaselines-v1.py",
+    "target": "systems/code/vendor/MatchedLocalEncoderBaselines-v1.py",
+    "original_sha256": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+    "packaged_sha256": "24a9f39d581ae66a4f3f00a59583ee6149f6721cfb3c474238fac0927f69ae43",
+    "changes": "Portable model defaults for vendor module; safe weights-only load in measure.py; line endings normalized. Numerical model and timing logic unchanged."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "archive_sha256": "374f96775099d925410d764c9bf48dff92c512eaad1ab7cc40938ed62a88d6ad",
+    "member": "batches.csv",
+    "target": "results/live_gateway_timerfix/batches.csv",
+    "original_sha256": "8f359855169d173edfb1429098066de8031a7875c6666589082297853ebcabd0",
+    "packaged_sha256": "8f359855169d173edfb1429098066de8031a7875c6666589082297853ebcabd0",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "archive_sha256": "374f96775099d925410d764c9bf48dff92c512eaad1ab7cc40938ed62a88d6ad",
+    "member": "requests.csv",
+    "target": "results/live_gateway_timerfix/requests.csv",
+    "original_sha256": "219e39acac7ffae90085c9dc4ed0a992aec294faf00704a0680c019901779cd3",
+    "packaged_sha256": "219e39acac7ffae90085c9dc4ed0a992aec294faf00704a0680c019901779cd3",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "archive_sha256": "374f96775099d925410d764c9bf48dff92c512eaad1ab7cc40938ed62a88d6ad",
+    "member": "sample_ids.csv",
+    "target": "results/live_gateway_timerfix/sample_ids.csv",
+    "original_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+    "packaged_sha256": "4896b11ee4302accfea75f5f9b67707ff4f7e512724cc9114a331ec5c1dededd",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "archive_sha256": "374f96775099d925410d764c9bf48dff92c512eaad1ab7cc40938ed62a88d6ad",
+    "member": "summary.csv",
+    "target": "results/live_gateway_timerfix/summary.csv",
+    "original_sha256": "15ff85017028d43584276338b30b375c0bcf065ec3545f4804ddc86214920b58",
+    "packaged_sha256": "15ff85017028d43584276338b30b375c0bcf065ec3545f4804ddc86214920b58",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "archive_sha256": "374f96775099d925410d764c9bf48dff92c512eaad1ab7cc40938ed62a88d6ad",
+    "member": "manifest.json",
+    "target": "results/live_gateway_timerfix/manifest.json",
+    "original_sha256": "55be89e66185b6fa5135207eb5802839cf55c8540210f775bda93d4061aead62",
+    "packaged_sha256": "55be89e66185b6fa5135207eb5802839cf55c8540210f775bda93d4061aead62",
+    "changes": "Byte-identical archived numerical evidence."
+  },
+  {
+    "source_archive": "LIVE_GATEWAY_RESULTS_TO_RETURN_TIMERFIX_20260919.zip",
+    "member": "code/live_gateway_gpu.py",
+    "target": "systems/code/live_gateway_gpu.py",
+    "original_sha256": "4def6f919242deaa5fbd1f730da992b41607f321c66ebc26a957e16ede618a74",
+    "packaged_sha256": "4def6f919242deaa5fbd1f730da992b41607f321c66ebc26a957e16ede618a74",
+    "changes": "Portable model defaults for vendor module; safe weights-only load in measure.py; line endings normalized. Numerical model and timing logic unchanged."
+  },
+  {
+    "source": "performance_supplement/reference_checkpoints/BiLSTM_seed42.pth",
+    "target": "systems/reference_checkpoints/BiLSTM_seed42.pth",
+    "original_sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+    "packaged_sha256": "a25e6e6e6887ad972ba8ed8368507875919e95477f41bd4a4838fa59c17341d2",
+    "changes": "Byte-identical locally staged reference checkpoint; release terms pending."
+  },
+  {
+    "source": "performance_supplement/reference_checkpoints/ByteCNN_seed42.pth",
+    "target": "systems/reference_checkpoints/ByteCNN_seed42.pth",
+    "original_sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+    "packaged_sha256": "394ff385164a02eef5c6c572e00fb6985149d8ba7e40b011c3f70ccce554df0d",
+    "changes": "Byte-identical locally staged reference checkpoint; release terms pending."
+  },
+  {
+    "source": "performance_supplement/reference_checkpoints/DC_EDRN_seed42.pth",
+    "target": "systems/reference_checkpoints/DC_EDRN_seed42.pth",
+    "original_sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+    "packaged_sha256": "737c7601e97880028eaa400a3e5baf0f0dcb3956373a9004f031b3ec4dfbbc1a",
+    "changes": "Byte-identical locally staged reference checkpoint; release terms pending."
+  }
+]
